@@ -2,14 +2,14 @@ require "formula"
 
 class Ghr < Formula
   homepage "https://github.com/tcnksm/ghr"
-  version 'v0.1.0'
+  version 'v0.1.1'
 
   if Hardware.is_64_bit?
-    url "https://github.com/tcnksm/ghr/releases/download/v0.1.0/ghr_v0.1.0_darwin_amd64.zip"
-    sha1 "31bf587711becd195ced25cf4013206949ed4841"
+    url "https://github.com/tcnksm/ghr/releases/download/v0.1.1/ghr_v0.1.1_darwin_amd64.zip"
+    sha1 "e5c793001f004b670df77cb57bc033c89201b485"
   else
-    url "https://github.com/tcnksm/ghr/releases/download/v0.1.0/ghr_v0.1.0_darwin_386.zip"
-    sha1 "4d1a0a153451580cdce3aac2c5ae171348772925"
+    url "https://github.com/tcnksm/ghr/releases/download/v0.1.1/ghr_v0.1.1_darwin_386.zip"
+    sha1 "642b827ae3d3b52dbc2060630e76604b074e139d"
   end
 
   depends_on :arch => :intel
