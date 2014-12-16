@@ -2,9 +2,9 @@ require "formula"
 
 class Ghr < Formula
   homepage "https://github.com/tcnksm/ghr"
-  version 'v0.3.0'
-  url "https://github.com/tcnksm/ghr/releases/download/v0.3.0/ghr_v0.3.0_darwin_amd64.zip"
-  sha1 "db668dd3c07613aaf2c0aace6cb3e432426e34c6"
+  version 'v0.4.0'
+  url "https://github.com/tcnksm/ghr/releases/download/v0.4.0/ghr_v0.4.0_darwin_amd64.zip"
+  sha1 "1aa90dde58c3b15dfd1e2f90cbaa317ee4752855"
 
   depends_on :arch => :intel
 
