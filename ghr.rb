@@ -5,12 +5,12 @@ class Ghr < Formula
   version 'v0.4.0'
 
   url "https://github.com/tcnksm/ghr/releases/download/v0.4.0/ghr_v0.4.0_darwin_amd64.zip"
-  sha1 "1aa90dde58c3b15dfd1e2f90cbaa317ee4752855"
+  sha256 "40aa0f2f662e08f93b74b696ae2041cc9e3974bcdebef39fc8f1a1af014f0c11"
 
   if OS.linux?
     if Hardware.is_64_bit?
       url "https://github.com/tcnksm/ghr/releases/download/v0.4.0/ghr_v0.4.0_linux_amd64.zip"
-      sha1 '0143c54913e3b51e8658e69ab70d01c5ced2e517'
+      sha256 '4b623fbf4b6f96b95fb095c1aae4b338927354130732765c5e9d071820ad6b2d'
     end
   end
 
