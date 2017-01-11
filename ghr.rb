@@ -2,10 +2,10 @@ require "formula"
 
 class Ghr < Formula
   homepage "https://github.com/tcnksm/ghr"
-  version 'v0.5.3'
+  version 'v0.5.4'
 
-  url "https://github.com/tcnksm/ghr/releases/download/v0.5.3/ghr_v0.5.3_darwin_amd64.zip"
-  sha256 "07efc0c0fea9c056f816b5d30e009601375f982c6c55962dc6c9cc36bc76fd06"
+  url "https://github.com/tcnksm/ghr/releases/download/v0.5.4/ghr_v0.5.4_darwin_amd64.zip"
+  sha256 "c473cd89813e1c94f30887d53a8cd0fced2a8ec6cd100444ba81ce45b32f09eb"
 
   def install
     bin.install 'ghr'
